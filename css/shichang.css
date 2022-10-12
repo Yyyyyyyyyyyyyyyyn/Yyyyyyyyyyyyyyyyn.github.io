@@ -1,0 +1,197 @@
+.topnav .a1 {
+    margin-right: 44px;
+}
+
+.content .left {
+    float: left;
+}
+
+.content .right {
+    float: right;
+    margin-bottom: 1rem;
+}
+
+ul.picnews li {
+    margin-bottom: 3rem;
+
+}
+
+.txtbox .txt {
+    font-size: 32px;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+.textbox {
+    margin-top: 3rem;
+}
+
+hr {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+.content .right span {
+    background-image: url(/images/xialajiantou.svg);
+    width: 16px;
+    height: 21px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.zuihou {
+    height: 44px;
+    text-align: center;
+}
+
+.zuihou .cont {
+    text-align: center;
+}
+
+.xiala-left {
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+
+.xiala-right {
+    width: 38px;
+    height: 38px;
+    float: right;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    main {
+        width: 100%;
+        /*1*/
+        padding: 20px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+
+    .main-bot-right,
+    .main-bot-left {
+        width: 100%;
+        float: none;
+    }
+
+    main h2 {
+        font-size: 2.8rem;
+    }
+
+    .inner {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    /* main {
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    } */
+
+    .mainnav {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .mainnav nav,
+    .topnav {
+        display: none;
+    }
+
+    .mainmenu {
+        display: inline-block;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    /* .entr .news-menu {
+        width: 100%;
+        height: 16rem;
+    } */
+
+
+
+    /* .main-bot-right {
+        width: 100%;
+    } */
+
+    .entr .news-menu {
+        width: 100%;
+        height: 16rem;
+    }
+
+    .content,
+    .copyright,
+    .sitemap {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .content .di {
+        width: 100%;
+    }
+
+    /*
+    .content .right {
+        float: left;
+    }
+*/
+    .txtbox {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-bot-right .picbox {
+        width: 100%;
+    }
+
+    .entr .bigtitle {
+        margin-bottom: 4rem;
+    }
+
+    .footer-top,
+    .footer-bot {
+        padding: 0 10px;
+    }
+
+    .footer-bot .sitemap {
+        text-align: center;
+    }
+
+    .cotyright {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,328 @@
+/* .topnav {
+    height: 46px;
+} */
+
+/* .mainnav {
+    height: 46px;
+    margin-top: 45px;
+    margin-bottom: 75px;
+} */
+
+/* .mainnav nav {
+    width: 390px;
+    height: 46px;
+    float: left;
+} */
+
+/* .logo {
+    width: 200px;
+    height: 25px;
+    float: right;
+} */
+
+/* main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.feidel {
+    height: 454px;
+    /* background-color: #93969d; */
+    /* margin-bottom: 100px; */
+}
+
+/**/
+.main-bot h4 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    color: rgb(69, 80, 80);
+}
+
+.wx-box {
+    /* 196 460*/
+    width: 17.5%;
+    height: 36rem;
+    /* background-color: blue; */
+    float: left;
+    line-height: 2rem;
+}
+
+/* width: 720px; */
+/*894*/
+/* .content {
+    width: 74.3333%;
+    height: 800px;
+    float: left;
+    padding: 0;
+    margin-left: 9%;
+} */
+
+
+.content p {
+    margin-bottom: 3rem;
+}
+
+.main-bot {
+    height: 1490px;
+    /* background-color: antiquewhite; */
+}
+
+/* 
+.footer-top {
+    height: 440px;
+} */
+
+
+/* .inner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* .inner {
+    width: 100%;
+    padding: 0 20px;
+} */
+
+
+/* height: 300px; */
+/* .footer-top .inner ul {
+    width: 184px;
+
+    margin-right: 122px;
+    float: left;
+} */
+
+
+/* .footer-top .inner ul {
+    float: none;
+    width: 100%;
+    margin: 0;
+    font-size: 3rem;
+} */
+
+
+/*
+.footer-top .inner div:last-child {
+    margin-right: 0;
+}
+*/
+
+/* .footer-bot {
+    height: 82px;
+} */
+
+/* .copyright {
+    width: 448px;
+    height: 82px;
+    float: left;
+}
+
+
+.sitemap {
+    width: 620px;
+    height: 82px;
+    float: right;
+} */
+
+.sponsor-name {
+    float: left;
+}
+
+
+.feidel .tupian {
+    float: right;
+    /* width: 648px; */
+    width: 56.8820%;
+    margin-top: 0px;
+}
+
+
+.main-bot-right .fdl {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.main-bot-right .ertong {
+    margin-bottom: 1.5rem;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    main {
+        width: 100%;
+        /*1*/
+        height: 1680px;
+        padding: 20px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+
+    .main-bot-right,
+    .main-bot-left {
+        width: 100%;
+        float: none;
+    }
+
+    main h2 {
+        font-size: 2.8rem;
+    }
+
+    .inner {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* .content,
+    .copyright,
+    .sitemap {
+        float: none;
+        width: 100%;
+        padding: 0;
+    } */
+    /* .footer-top .inner ul {
+        margin-right: 1rem;
+    } */
+    .main-bot {
+        height: 169rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    /*1*/
+    /* main {
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    } */
+
+    /* main {
+        width: 100%;
+      
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}*/
+
+    .mainnav {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .mainnav nav,
+    .topnav {
+        display: none;
+    }
+
+    .mainmenu {
+        display: inline-block;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+
+    /* . .news-menu {
+        width: 17.5%;
+        height: 36rem;
+        float: left;
+        line-height: 4em;
+    } */
+
+    .wx-box .news-menu {
+        width: 100%;
+        height: 16rem;
+        line-height: 3em;
+    }
+
+    .main-bot .dakai {
+        display: none;
+    }
+
+    /*1*/
+    /* .main-bot-right {
+        width: 100%;
+    } */
+    /*2*/
+    .main-bot .news-menu {
+        width: 100%;
+        height: 16rem;
+    }
+
+    .content,
+    .copyright,
+    .sitemap {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .txtbox {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-bot-right .picbox {
+        width: 100%;
+    }
+
+    .footer-top,
+    .footer-bot {
+        padding: 0 10px;
+    }
+
+
+    .footer-top .inner ul {
+        float: none;
+        width: 100%;
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .footer-bot .sitemap {
+        text-align: center;
+    }
+
+
+
+    .cotyright {
+        margin: 1rem 0;
+    }
+
+    .feidel {
+        height: 35.4rem;
+    }
+
+    /* .inner {
+        width: 100%;
+    } */
+}
